@@ -26,12 +26,12 @@ graph TD
     E --> F["HuggingFace Embeddings"]
     F --> G["Pinecone DB"]
 
-    style A fill:#dfd,stroke:#333
-    style G fill:#f9f,stroke:#333,stroke-width:2px
-    style C fill:#bbf,stroke:#333
-    style D fill:#bbf,stroke:#333
-    style E fill:#bbf,stroke:#333
-    style F fill:#bbf,stroke:#333
+    style A fill:#fff,stroke:#000,stroke-width:2px
+    style G fill:#fff,stroke:#000,stroke-width:2px
+    style C fill:#fff,stroke:#000
+    style D fill:#fff,stroke:#000
+    style E fill:#fff,stroke:#000
+    style F fill:#fff,stroke:#000
 ```
 
 ### 2. AI Agentic Matching Workflow
@@ -45,12 +45,12 @@ graph LR
     LLM --> Interview["Interview Agent"]
     Interview --> Output["🎬 Match Found"]
 
-    style User fill:#dfd,stroke:#333
-    style Output fill:#dfd,stroke:#333
-    style Sourcing fill:#f96,stroke:#333,stroke-width:2px
-    style Eval fill:#f96,stroke:#333,stroke-width:2px
-    style Interview fill:#f96,stroke:#333,stroke-width:2px
-    style PC fill:#f9f,stroke:#333,stroke-width:2px
+    style User fill:#fff,stroke:#000,stroke-width:2px
+    style Output fill:#fff,stroke:#000,stroke-width:2px
+    style Sourcing fill:#fff,stroke:#000,stroke-width:2px
+    style Eval fill:#fff,stroke:#000,stroke-width:2px
+    style Interview fill:#fff,stroke:#000,stroke-width:2px
+    style PC fill:#fff,stroke:#000,stroke-width:2px
 ```
 
 [Full Architecture Details Here](file:///C:/Users/admin/.gemini/antigravity/brain/9c94b4b9-a4ef-4a5b-8842-2e7acde17304/architecture.md)
@@ -74,7 +74,7 @@ graph LR
 1. **Clone the repository**:
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Abdullasaqib/Agentic-ATS-System.git
    cd RAG
    ```
 2. **Set up Virtual Environment**:
