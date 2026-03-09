@@ -1,0 +1,12 @@
+streamlit==1.32.0
+pinecone-client==3.2.2
+langchain>=0.2.14
+langchain-core>=0.2.39
+langchain-groq>=0.1.10
+langchain-community>=0.2.12
+langchain-text-splitters>=0.2.2
+python-dotenv==1.0.1
+pydantic==2.6.4
+sentence-transformers>=2.7.0
+pypdf>=5.9.0
+docx2txt>=0.9
