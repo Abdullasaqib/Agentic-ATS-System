@@ -18,7 +18,7 @@ A sophisticated AI-powered recruitment platform designed for the Media and Enter
 
 ```mermaid
 graph TD
-    A["📄 Upload Resume"] --> B{"File Type?"}
+    A["Upload Resume"] --> B{"File Type?"}
     B -- PDF --> C["PyPDF Extractor"]
     B -- Docx --> D["Docx2txt Extractor"]
     C --> E["Recursive Chunking"]
@@ -38,12 +38,12 @@ graph TD
 
 ```mermaid
 graph LR
-    User["🔍 Role & Vibe"] --> Sourcing["Sourcing Agent"]
+    User["Role & Vibe"] --> Sourcing["Sourcing Agent"]
     Sourcing <--> PC["Pinecone DB"]
     Sourcing --> Eval["Evaluation Agent"]
     Eval --> LLM["Groq Llama 3.1 Reasoning"]
     LLM --> Interview["Interview Agent"]
-    Interview --> Output["🎬 Match Found"]
+    Interview --> Output["Match Found"]
 
     style User fill:#fff,stroke:#000,stroke-width:2px
     style Output fill:#fff,stroke:#000,stroke-width:2px
@@ -66,7 +66,7 @@ graph LR
 ## Prerequisites
 
 - Python 3.10+
-- Pinecone API Key (Free Tier works)
+- Pinecone API Key
 - Groq API Key
 
 ## Installation
